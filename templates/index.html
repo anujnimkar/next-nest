@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}Questionnaire – Couples Metro Match{% endblock %}
+
+{% block content %}
+<section class="wizard">
+  <div class="step-indicator">
+    <span class="{% if step >= 1 %}active{% endif %}">Partner 1</span>
+    <span class="{% if step >= 2 %}active{% endif %}">Partner 2</span>
+    <span class="{% if step >= 3 %}active{% endif %}">Preferences</span>
+    <span>Results</span>
+  </div>
+
+  <div class="card">
+    {% if step in [1, 2] %}
+      <h2>{{ partner_label }}</h2>
+      <p class="subtitle">Tell us about your career plans and commute tolerance for the next 5–7 years.</p>
+      <form method="post" class="form-grid">
+        {{ form.hidden_tag() }}
+        <div class="field">
+          {{ form.career_field.label }}
+          {{ form.career_field(class="input") }}
+        </div>
+        <div class="field">
+          {{ form.max_commute.label }}
+          {{ form.max_commute(class="input", type="range", min="10", max="90", oninput="this.nextElementSibling.value = this.value + ' min'") }}
+          <output>{{ form.max_commute.data or 35 }} min</output>
+        </div>
+        <div class="actions">{{ form.submit(class="btn btn-primary") }}</div>
+      </form>
+    {% elif step == 3 %}
+      <h2>Household preferences</h2>
+      <p class="subtitle">Rate each priority from 0 (low) to 10 (high). We average both partners' scores for the final ranking.</p>
+      <form method="post" class="form-grid">
+        {{ form.hidden_tag() }}
+        <fieldset class="field">
+          <legend>{{ form.has_kids.label.text }}</legend>
+          {% for subfield in form.has_kids %}
+            <label class="radio-label">{{ subfield }} {{ subfield.label.text }}</label>
+          {% endfor %}
+        </fieldset>
+
+        <div class="weights-grid">
+          <div>
+            <h3>Partner 1 priorities</h3>
+            {% set p1_fields = [
+              (form.partner1_career, 'Career'),
+              (form.partner1_housing, 'Housing'),
+              (form.partner1_col, 'Cost of living'),
+              (form.partner1_commute, 'Commute'),
+              (form.partner1_childcare, 'Childcare')
+            ] %}
+            {% for field, label in p1_fields %}
+            <div class="slider-row">
+              <div class="slider-label">
+                <span>{{ label }}</span>
+                <output class="slider-value">{{ field.data or 0 }}</output>
+              </div>
+              {{ field(type="range", min="0", max="10", step="1", class="priority-slider", oninput="this.closest('.slider-row').querySelector('.slider-value').textContent = this.value") }}
+            </div>
+            {% endfor %}
+          </div>
+          <div>
+            <h3>Partner 2 priorities</h3>
+            {% set p2_fields = [
+              (form.partner2_career, 'Career'),
+              (form.partner2_housing, 'Housing'),
+              (form.partner2_col, 'Cost of living'),
+              (form.partner2_commute, 'Commute'),
+              (form.partner2_childcare, 'Childcare')
+            ] %}
+            {% for field, label in p2_fields %}
+            <div class="slider-row">
+              <div class="slider-label">
+                <span>{{ label }}</span>
+                <output class="slider-value">{{ field.data or 0 }}</output>
+              </div>
+              {{ field(type="range", min="0", max="10", step="1", class="priority-slider", oninput="this.closest('.slider-row').querySelector('.slider-value').textContent = this.value") }}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="actions">{{ form.submit(class="btn btn-primary") }}</div>
+      </form>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

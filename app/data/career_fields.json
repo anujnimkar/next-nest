@@ -1,0 +1,22 @@
+[
+  {"id": "software_tech", "label": "Software / Tech", "growth_rate": 15, "soc_group": "computer_mathematical"},
+  {"id": "hardware_engineering", "label": "Hardware Engineering", "growth_rate": 6, "soc_group": "architecture_engineering"},
+  {"id": "business_intelligence", "label": "Business Intelligence", "growth_rate": 10, "soc_group": "business_financial"},
+  {"id": "data_analytics", "label": "Data Analytics", "growth_rate": 14, "soc_group": "computer_mathematical"},
+  {"id": "data_engineering", "label": "Data Engineering", "growth_rate": 13, "soc_group": "computer_mathematical"},
+  {"id": "finance", "label": "Finance / Banking", "growth_rate": 7, "soc_group": "business_financial"},
+  {"id": "healthcare", "label": "Healthcare", "growth_rate": 12, "soc_group": "healthcare"},
+  {"id": "engineering", "label": "Engineering", "growth_rate": 5, "soc_group": "architecture_engineering"},
+  {"id": "education", "label": "Education", "growth_rate": 3, "soc_group": "education"},
+  {"id": "legal", "label": "Legal", "growth_rate": 4, "soc_group": "legal"},
+  {"id": "marketing", "label": "Marketing / Advertising", "growth_rate": 6, "soc_group": "business_financial"},
+  {"id": "sales", "label": "Sales / Business Development", "growth_rate": 4, "soc_group": "sales"},
+  {"id": "consulting", "label": "Consulting", "growth_rate": 8, "soc_group": "business_financial"},
+  {"id": "biotech", "label": "Biotech / Life Sciences", "growth_rate": 10, "soc_group": "life_physical_social"},
+  {"id": "government", "label": "Government / Public Sector", "growth_rate": 2, "soc_group": "office_administrative"},
+  {"id": "remote_hybrid", "label": "Remote / Hybrid-flexible", "growth_rate": 8, "soc_group": "general"},
+  {"id": "manufacturing", "label": "Manufacturing / Operations", "growth_rate": 1, "soc_group": "production"},
+  {"id": "media", "label": "Media / Entertainment", "growth_rate": 5, "soc_group": "arts_design_media"},
+  {"id": "real_estate", "label": "Real Estate / Construction", "growth_rate": 3, "soc_group": "construction"},
+  {"id": "hospitality", "label": "Hospitality / Food Service", "growth_rate": 4, "soc_group": "food_preparation"}
+]

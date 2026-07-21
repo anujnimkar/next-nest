@@ -1,0 +1,38 @@
+[
+  {
+    "tier": 1,
+    "name": "urban_core",
+    "label": "Urban core",
+    "min_minutes": 0,
+    "max_minutes": 20,
+    "housing_multiplier": 1.0,
+    "col_multiplier": 1.0
+  },
+  {
+    "tier": 2,
+    "name": "inner_suburbs",
+    "label": "Inner suburbs",
+    "min_minutes": 21,
+    "max_minutes": 35,
+    "housing_multiplier": 0.85,
+    "col_multiplier": 0.95
+  },
+  {
+    "tier": 3,
+    "name": "outer_suburbs",
+    "label": "Outer suburbs",
+    "min_minutes": 36,
+    "max_minutes": 50,
+    "housing_multiplier": 0.72,
+    "col_multiplier": 0.9
+  },
+  {
+    "tier": 4,
+    "name": "exurbs",
+    "label": "Exurbs",
+    "min_minutes": 51,
+    "max_minutes": 999,
+    "housing_multiplier": 0.6,
+    "col_multiplier": 0.85
+  }
+]

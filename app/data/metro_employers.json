@@ -1,0 +1,7068 @@
+[
+  {
+    "metro_id": "nyc",
+    "employers": [
+      {
+        "name": "JPMorgan Chase",
+        "fields": [
+          "finance",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 101250,
+            "pay_max": 155250
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 121500,
+            "pay_max": 189000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 108000,
+            "pay_max": 168750
+          }
+        ]
+      },
+      {
+        "name": "Google",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 128250,
+            "pay_max": 202500
+          }
+        ]
+      },
+      {
+        "name": "Mount Sinai Health System",
+        "fields": [
+          "healthcare",
+          "biotech"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 87750,
+            "pay_max": 128250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 94500,
+            "pay_max": 141750
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 108000,
+            "pay_max": 168750
+          }
+        ]
+      },
+      {
+        "name": "Deloitte",
+        "fields": [
+          "consulting",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Management Consultant",
+            "field": "consulting",
+            "pay_min": 114750,
+            "pay_max": 189000
+          },
+          {
+            "title": "Strategy Analyst",
+            "field": "consulting",
+            "pay_min": 108000,
+            "pay_max": 168750
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 108000,
+            "pay_max": 168750
+          }
+        ]
+      },
+      {
+        "name": "Bloomberg",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "finance"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 128250,
+            "pay_max": 202500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "la",
+    "employers": [
+      {
+        "name": "Disney",
+        "fields": [
+          "media",
+          "marketing",
+          "software_tech"
+        ],
+        "roles": [
+          {
+            "title": "Content Producer",
+            "field": "media",
+            "pay_min": 63250,
+            "pay_max": 103500
+          },
+          {
+            "title": "Digital Media Manager",
+            "field": "media",
+            "pay_min": 74750,
+            "pay_max": 120750
+          },
+          {
+            "title": "Marketing Manager",
+            "field": "marketing",
+            "pay_min": 80500,
+            "pay_max": 132250
+          }
+        ]
+      },
+      {
+        "name": "Northrop Grumman",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 92000,
+            "pay_max": 138000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 103500,
+            "pay_max": 166750
+          }
+        ]
+      },
+      {
+        "name": "UCLA Health",
+        "fields": [
+          "healthcare",
+          "biotech"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 92000,
+            "pay_max": 143750
+          }
+        ]
+      },
+      {
+        "name": "Snap",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "marketing"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "SpaceX",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 92000,
+            "pay_max": 138000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 103500,
+            "pay_max": 166750
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "chicago",
+    "employers": [
+      {
+        "name": "United Airlines",
+        "fields": [
+          "engineering",
+          "software_tech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 80000,
+            "pay_max": 120000
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          }
+        ]
+      },
+      {
+        "name": "Abbott",
+        "fields": [
+          "healthcare",
+          "biotech",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Allstate",
+        "fields": [
+          "finance",
+          "data_analytics",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "McDonald's",
+        "fields": [
+          "marketing",
+          "business_intelligence",
+          "software_tech"
+        ],
+        "roles": [
+          {
+            "title": "Marketing Manager",
+            "field": "marketing",
+            "pay_min": 70000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Brand Strategist",
+            "field": "marketing",
+            "pay_min": 65000,
+            "pay_max": 105000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Accenture",
+        "fields": [
+          "consulting",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Management Consultant",
+            "field": "consulting",
+            "pay_min": 85000,
+            "pay_max": 140000
+          },
+          {
+            "title": "Strategy Analyst",
+            "field": "consulting",
+            "pay_min": 80000,
+            "pay_max": 125000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "dfw",
+    "employers": [
+      {
+        "name": "American Airlines",
+        "fields": [
+          "engineering",
+          "software_tech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          }
+        ]
+      },
+      {
+        "name": "AT&T",
+        "fields": [
+          "software_tech",
+          "hardware_engineering",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 82800,
+            "pay_max": 133400
+          }
+        ]
+      },
+      {
+        "name": "Texas Health Resources",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "JPMorgan Chase",
+        "fields": [
+          "finance",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Toyota North America",
+        "fields": [
+          "manufacturing",
+          "engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "houston",
+    "employers": [
+      {
+        "name": "ExxonMobil",
+        "fields": [
+          "engineering",
+          "manufacturing",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          }
+        ]
+      },
+      {
+        "name": "MD Anderson Cancer Center",
+        "fields": [
+          "healthcare",
+          "biotech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Halliburton",
+        "fields": [
+          "engineering",
+          "manufacturing",
+          "hardware_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          }
+        ]
+      },
+      {
+        "name": "Memorial Hermann",
+        "fields": [
+          "healthcare",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Sysco",
+        "fields": [
+          "sales",
+          "business_intelligence",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Account Executive",
+            "field": "sales",
+            "pay_min": 64400,
+            "pay_max": 119600
+          },
+          {
+            "title": "Business Development Manager",
+            "field": "sales",
+            "pay_min": 69000,
+            "pay_max": 115000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "dc",
+    "employers": [
+      {
+        "name": "Lockheed Martin",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "government"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 92000,
+            "pay_max": 138000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 103500,
+            "pay_max": 166750
+          }
+        ]
+      },
+      {
+        "name": "Capital One",
+        "fields": [
+          "finance",
+          "software_tech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 103500,
+            "pay_max": 161000
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          }
+        ]
+      },
+      {
+        "name": "Amazon Web Services",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 109250,
+            "pay_max": 172500
+          }
+        ]
+      },
+      {
+        "name": "MedStar Health",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Deloitte",
+        "fields": [
+          "consulting",
+          "government",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Management Consultant",
+            "field": "consulting",
+            "pay_min": 97750,
+            "pay_max": 161000
+          },
+          {
+            "title": "Strategy Analyst",
+            "field": "consulting",
+            "pay_min": 92000,
+            "pay_max": 143750
+          },
+          {
+            "title": "Policy Analyst",
+            "field": "government",
+            "pay_min": 69000,
+            "pay_max": 109250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "philadelphia",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "miami",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "atlanta",
+    "employers": [
+      {
+        "name": "Delta Air Lines",
+        "fields": [
+          "engineering",
+          "software_tech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          }
+        ]
+      },
+      {
+        "name": "Home Depot",
+        "fields": [
+          "business_intelligence",
+          "data_engineering",
+          "software_tech"
+        ],
+        "roles": [
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          },
+          {
+            "title": "Analytics Manager",
+            "field": "business_intelligence",
+            "pay_min": 87400,
+            "pay_max": 128800
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Coca-Cola",
+        "fields": [
+          "marketing",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Marketing Manager",
+            "field": "marketing",
+            "pay_min": 64400,
+            "pay_max": 105800
+          },
+          {
+            "title": "Brand Strategist",
+            "field": "marketing",
+            "pay_min": 59800,
+            "pay_max": 96600
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "UPS",
+        "fields": [
+          "engineering",
+          "manufacturing",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          }
+        ]
+      },
+      {
+        "name": "Emory Healthcare",
+        "fields": [
+          "healthcare",
+          "biotech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "boston",
+    "employers": [
+      {
+        "name": "Mass General Brigham",
+        "fields": [
+          "healthcare",
+          "biotech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 92000,
+            "pay_max": 143750
+          }
+        ]
+      },
+      {
+        "name": "State Street",
+        "fields": [
+          "finance",
+          "business_intelligence",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 103500,
+            "pay_max": 161000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 92000,
+            "pay_max": 143750
+          }
+        ]
+      },
+      {
+        "name": "Biogen",
+        "fields": [
+          "biotech",
+          "data_analytics",
+          "healthcare"
+        ],
+        "roles": [
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 92000,
+            "pay_max": 143750
+          },
+          {
+            "title": "Clinical Research Associate",
+            "field": "biotech",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Wayfair",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 109250,
+            "pay_max": 172500
+          }
+        ]
+      },
+      {
+        "name": "Boston Consulting Group",
+        "fields": [
+          "consulting",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Management Consultant",
+            "field": "consulting",
+            "pay_min": 97750,
+            "pay_max": 161000
+          },
+          {
+            "title": "Strategy Analyst",
+            "field": "consulting",
+            "pay_min": 92000,
+            "pay_max": 143750
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 92000,
+            "pay_max": 143750
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "phoenix",
+    "employers": [
+      {
+        "name": "Intel",
+        "fields": [
+          "hardware_engineering",
+          "engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 92000,
+            "pay_max": 147200
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Banner Health",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "American Express",
+        "fields": [
+          "finance",
+          "software_tech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          }
+        ]
+      },
+      {
+        "name": "Honeywell",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 73600,
+            "pay_max": 110400
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 82800,
+            "pay_max": 133400
+          }
+        ]
+      },
+      {
+        "name": "Carvana",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "sales"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "sf",
+    "employers": [
+      {
+        "name": "Salesforce",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 128250,
+            "pay_max": 202500
+          }
+        ]
+      },
+      {
+        "name": "Apple",
+        "fields": [
+          "software_tech",
+          "hardware_engineering",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 121500,
+            "pay_max": 195750
+          }
+        ]
+      },
+      {
+        "name": "Uber",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 101250,
+            "pay_max": 162000
+          }
+        ]
+      },
+      {
+        "name": "Wells Fargo",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 101250,
+            "pay_max": 155250
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 121500,
+            "pay_max": 189000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 108000,
+            "pay_max": 168750
+          }
+        ]
+      },
+      {
+        "name": "Genentech",
+        "fields": [
+          "biotech",
+          "data_analytics",
+          "healthcare"
+        ],
+        "roles": [
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 108000,
+            "pay_max": 168750
+          },
+          {
+            "title": "Clinical Research Associate",
+            "field": "biotech",
+            "pay_min": 94500,
+            "pay_max": 141750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 101250,
+            "pay_max": 162000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "riverside",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "detroit",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "seattle",
+    "employers": [
+      {
+        "name": "Amazon",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 109250,
+            "pay_max": 172500
+          }
+        ]
+      },
+      {
+        "name": "Microsoft",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 109250,
+            "pay_max": 172500
+          }
+        ]
+      },
+      {
+        "name": "Boeing",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 92000,
+            "pay_max": 138000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 103500,
+            "pay_max": 166750
+          }
+        ]
+      },
+      {
+        "name": "Expedia Group",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "marketing"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Providence Health",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "minneapolis",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "san_diego",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 80500,
+            "pay_max": 120750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 63250,
+            "pay_max": 97750
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 74750,
+            "pay_max": 109250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 86250,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 80500,
+            "pay_max": 126500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 69000,
+            "pay_max": 103500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 86250,
+            "pay_max": 132250
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 86250,
+            "pay_max": 132250
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 103500,
+            "pay_max": 161000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 92000,
+            "pay_max": 143750
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 109250,
+            "pay_max": 178250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 103500,
+            "pay_max": 166750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 109250,
+            "pay_max": 172500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "tampa",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "denver",
+    "employers": [
+      {
+        "name": "Lockheed Martin Space",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "government"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 80000,
+            "pay_max": 120000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 90000,
+            "pay_max": 145000
+          }
+        ]
+      },
+      {
+        "name": "Centura Health",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Arrow Electronics",
+        "fields": [
+          "sales",
+          "business_intelligence",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Account Executive",
+            "field": "sales",
+            "pay_min": 70000,
+            "pay_max": 130000
+          },
+          {
+            "title": "Business Development Manager",
+            "field": "sales",
+            "pay_min": 75000,
+            "pay_max": 125000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Slalom",
+        "fields": [
+          "consulting",
+          "data_analytics",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Management Consultant",
+            "field": "consulting",
+            "pay_min": 85000,
+            "pay_max": 140000
+          },
+          {
+            "title": "Strategy Analyst",
+            "field": "consulting",
+            "pay_min": 80000,
+            "pay_max": 125000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Palantir",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "government"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "baltimore",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "stlouis",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "orlando",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "charlotte",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "san_antonio",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "portland",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "sacramento",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "pittsburgh",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "austin",
+    "employers": [
+      {
+        "name": "Apple",
+        "fields": [
+          "hardware_engineering",
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 100000,
+            "pay_max": 160000
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          }
+        ]
+      },
+      {
+        "name": "Tesla",
+        "fields": [
+          "engineering",
+          "hardware_engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Project Engineer",
+            "field": "engineering",
+            "pay_min": 80000,
+            "pay_max": 120000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 90000,
+            "pay_max": 145000
+          }
+        ]
+      },
+      {
+        "name": "Dell Technologies",
+        "fields": [
+          "software_tech",
+          "hardware_engineering",
+          "sales"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 90000,
+            "pay_max": 145000
+          }
+        ]
+      },
+      {
+        "name": "Oracle",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      },
+      {
+        "name": "Indeed",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "las_vegas",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "cincinnati",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "kansas_city",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "columbus",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "indianapolis",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "cleveland",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "san_jose",
+    "employers": [
+      {
+        "name": "Apple",
+        "fields": [
+          "hardware_engineering",
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 135000,
+            "pay_max": 216000
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          }
+        ]
+      },
+      {
+        "name": "Google",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 128250,
+            "pay_max": 202500
+          }
+        ]
+      },
+      {
+        "name": "Intel",
+        "fields": [
+          "hardware_engineering",
+          "engineering",
+          "manufacturing"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 135000,
+            "pay_max": 216000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 101250,
+            "pay_max": 155250
+          }
+        ]
+      },
+      {
+        "name": "Adobe",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "marketing"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 101250,
+            "pay_max": 162000
+          }
+        ]
+      },
+      {
+        "name": "Cisco",
+        "fields": [
+          "hardware_engineering",
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 121500,
+            "pay_max": 195750
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 135000,
+            "pay_max": 216000
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 128250,
+            "pay_max": 209250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "nashville",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "virginia_beach",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "providence",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "milwaukee",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "jacksonville",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "oklahoma_city",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 59500,
+            "pay_max": 89250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 46750,
+            "pay_max": 72250
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 59500,
+            "pay_max": 93500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 51000,
+            "pay_max": 76500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 63750,
+            "pay_max": 97750
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 63750,
+            "pay_max": 97750
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 76500,
+            "pay_max": 119000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 68000,
+            "pay_max": 106250
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 80750,
+            "pay_max": 131750
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 76500,
+            "pay_max": 123250
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 80750,
+            "pay_max": 127500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "raleigh",
+    "employers": [
+      {
+        "name": "Red Hat",
+        "fields": [
+          "software_tech",
+          "data_engineering",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      },
+      {
+        "name": "Epic Games",
+        "fields": [
+          "software_tech",
+          "data_analytics",
+          "marketing"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Duke Health",
+        "fields": [
+          "healthcare",
+          "biotech",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Research Scientist",
+            "field": "biotech",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Cisco",
+        "fields": [
+          "hardware_engineering",
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Hardware Engineer",
+            "field": "hardware_engineering",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Systems Architect",
+            "field": "hardware_engineering",
+            "pay_min": 92000,
+            "pay_max": 147200
+          },
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          }
+        ]
+      },
+      {
+        "name": "Fidelity Investments",
+        "fields": [
+          "finance",
+          "business_intelligence",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "memphis",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 59500,
+            "pay_max": 89250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 46750,
+            "pay_max": 72250
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 59500,
+            "pay_max": 93500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 51000,
+            "pay_max": 76500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 63750,
+            "pay_max": 97750
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 63750,
+            "pay_max": 97750
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 76500,
+            "pay_max": 119000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 68000,
+            "pay_max": 106250
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 80750,
+            "pay_max": 131750
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 76500,
+            "pay_max": 123250
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 80750,
+            "pay_max": 127500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "richmond",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "louisville",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 59500,
+            "pay_max": 89250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 46750,
+            "pay_max": 72250
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 59500,
+            "pay_max": 93500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 51000,
+            "pay_max": 76500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 63750,
+            "pay_max": 97750
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 63750,
+            "pay_max": 97750
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 76500,
+            "pay_max": 119000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 68000,
+            "pay_max": 106250
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 80750,
+            "pay_max": 131750
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 76500,
+            "pay_max": 123250
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 80750,
+            "pay_max": 127500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "new_orleans",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "salt_lake_city",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 64400,
+            "pay_max": 96600
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 50600,
+            "pay_max": 78200
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 59800,
+            "pay_max": 87400
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 69000,
+            "pay_max": 110400
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 64400,
+            "pay_max": 101200
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 55200,
+            "pay_max": 82800
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 69000,
+            "pay_max": 105800
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 69000,
+            "pay_max": 105800
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 82800,
+            "pay_max": 128800
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 73600,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 87400,
+            "pay_max": 142600
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 82800,
+            "pay_max": 133400
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 87400,
+            "pay_max": 138000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "hartford",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 70000,
+            "pay_max": 105000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 55000,
+            "pay_max": 85000
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 65000,
+            "pay_max": 95000
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 75000,
+            "pay_max": 120000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 70000,
+            "pay_max": 110000
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 60000,
+            "pay_max": 90000
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 75000,
+            "pay_max": 115000
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 75000,
+            "pay_max": 115000
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 90000,
+            "pay_max": 140000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 80000,
+            "pay_max": 125000
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 95000,
+            "pay_max": 155000
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 90000,
+            "pay_max": 145000
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 95000,
+            "pay_max": 150000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "buffalo",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 59500,
+            "pay_max": 89250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 46750,
+            "pay_max": 72250
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 59500,
+            "pay_max": 93500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 51000,
+            "pay_max": 76500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 63750,
+            "pay_max": 97750
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 63750,
+            "pay_max": 97750
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 76500,
+            "pay_max": 119000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 68000,
+            "pay_max": 106250
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 80750,
+            "pay_max": 131750
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 76500,
+            "pay_max": 123250
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 80750,
+            "pay_max": 127500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metro_id": "birmingham",
+    "employers": [
+      {
+        "name": "Regional Health System",
+        "fields": [
+          "healthcare",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Registered Nurse",
+            "field": "healthcare",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Clinical Coordinator",
+            "field": "healthcare",
+            "pay_min": 59500,
+            "pay_max": 89250
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "State University",
+        "fields": [
+          "education",
+          "data_analytics"
+        ],
+        "roles": [
+          {
+            "title": "Instructional Designer",
+            "field": "education",
+            "pay_min": 46750,
+            "pay_max": 72250
+          },
+          {
+            "title": "School Administrator",
+            "field": "education",
+            "pay_min": 55250,
+            "pay_max": 80750
+          },
+          {
+            "title": "Data Analyst",
+            "field": "data_analytics",
+            "pay_min": 63750,
+            "pay_max": 102000
+          }
+        ]
+      },
+      {
+        "name": "Manufacturing Corp",
+        "fields": [
+          "manufacturing",
+          "engineering"
+        ],
+        "roles": [
+          {
+            "title": "Operations Manager",
+            "field": "manufacturing",
+            "pay_min": 59500,
+            "pay_max": 93500
+          },
+          {
+            "title": "Production Supervisor",
+            "field": "manufacturing",
+            "pay_min": 51000,
+            "pay_max": 76500
+          },
+          {
+            "title": "Mechanical Engineer",
+            "field": "engineering",
+            "pay_min": 63750,
+            "pay_max": 97750
+          }
+        ]
+      },
+      {
+        "name": "Financial Services Group",
+        "fields": [
+          "finance",
+          "business_intelligence"
+        ],
+        "roles": [
+          {
+            "title": "Financial Analyst",
+            "field": "finance",
+            "pay_min": 63750,
+            "pay_max": 97750
+          },
+          {
+            "title": "Investment Associate",
+            "field": "finance",
+            "pay_min": 76500,
+            "pay_max": 119000
+          },
+          {
+            "title": "BI Analyst",
+            "field": "business_intelligence",
+            "pay_min": 68000,
+            "pay_max": 106250
+          }
+        ]
+      },
+      {
+        "name": "Tech Solutions Inc",
+        "fields": [
+          "software_tech",
+          "data_engineering"
+        ],
+        "roles": [
+          {
+            "title": "Software Engineer",
+            "field": "software_tech",
+            "pay_min": 80750,
+            "pay_max": 131750
+          },
+          {
+            "title": "Full Stack Developer",
+            "field": "software_tech",
+            "pay_min": 76500,
+            "pay_max": 123250
+          },
+          {
+            "title": "Data Engineer",
+            "field": "data_engineering",
+            "pay_min": 80750,
+            "pay_max": 127500
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Results – Couples Metro Match{% endblock %}
+
+{% block content %}
+<section class="results-header">
+  <div>
+    <h2>Ranked metro areas</h2>
+    <p class="subtitle">
+      Based on both partners' fields, commute limits, and averaged priority weights.
+      {% if has_kids %}Childcare costs are included in scoring.{% else %}Childcare is shown for reference but not weighted.{% endif %}
+    </p>
+  </div>
+  <a href="{{ url_for('main.reset') }}" class="btn btn-secondary">Start over</a>
+</section>
+
+<div class="results-list">
+  {% for row in ranked %}
+  <article class="result-card">
+    <header class="result-card-header">
+      <div>
+        <span class="rank">#{{ loop.index }}</span>
+        <h3>{{ row.metro.name }} <small>{{ row.metro.state }}</small></h3>
+        <p class="tier-note">Cost tier: {{ row.tier.label }} (based on shorter max commute)</p>
+      </div>
+      <div class="overall-score">
+        <span class="score-value">{{ row.overall_score }}</span>
+        <span class="score-label">Overall</span>
+      </div>
+    </header>
+
+    <div class="score-bars">
+      {% for key, value in row.category_scores.items() %}
+      <div class="score-bar-row">
+        <span class="score-bar-label">{{ key|replace('_', ' ')|title }}</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width: {{ value }}%"></div></div>
+        <span class="score-bar-value">{{ value }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="cost-grid">
+      <div class="cost-card">
+        <h4>Housing (monthly)</h4>
+        <ul>
+          <li>2 bed / 2 bath rent: <strong>${{ "{:,}".format(row.housing.rent) }}</strong></li>
+          <li>1800 sq ft mortgage equiv.: <strong>${{ "{:,}".format(row.housing.mortgage_equiv) }}</strong></li>
+          <li>Est. home price: ${{ "{:,}".format(row.housing.home_price) }}</li>
+        </ul>
+      </div>
+      <div class="cost-card">
+        <h4>Cost of living (monthly)</h4>
+        <ul>
+          {% for key, value in row.col.breakdown.items() %}
+          <li>{{ key|replace('_', ' ')|title }}: ${{ "{:,}".format(value) }}</li>
+          {% endfor %}
+          <li class="total">Total: <strong>${{ "{:,}".format(row.col.total) }}</strong></li>
+        </ul>
+      </div>
+      <div class="cost-card">
+        <h4>Childcare (monthly)</h4>
+        <ul>
+          {% for key, value in row.childcare.breakdown.items() %}
+          <li>{{ key|replace('_', ' ')|title }}: ${{ "{:,}".format(value) }}</li>
+          {% endfor %}
+          <li class="total">Total: <strong>${{ "{:,}".format(row.childcare.total) }}</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="commute-badge {% if row.commute.both_ok %}ok{% else %}warn{% endif %}">
+      {% if row.commute.both_ok %}
+        Both partners within commute limit (P1: {{ row.commute.partner1_minutes }} min, P2: {{ row.commute.partner2_minutes }} min)
+      {% else %}
+        Commute warning — P1: {{ row.commute.partner1_minutes }} min {% if row.commute.partner1_ok %}(ok){% else %}(over limit){% endif %},
+        P2: {{ row.commute.partner2_minutes }} min {% if row.commute.partner2_ok %}(ok){% else %}(over limit){% endif %}
+      {% endif %}
+    </div>
+
+    <div class="employers-section">
+      <h4>Top employers in this area</h4>
+      <p class="employers-note">Roles and pay ranges reflect typical hiring for your selected career fields.</p>
+      <div class="employers-grid">
+        {% for employer in row.employers %}
+        <div class="employer-card">
+          <h5>{{ employer.name }}</h5>
+          <ul class="role-list">
+            {% for role in employer.roles %}
+            <li>
+              <strong>{{ role.title }}</strong>
+              <span class="pay-range">${{ "{:,}".format(role.pay_min) }} – ${{ "{:,}".format(role.pay_max) }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
