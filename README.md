@@ -16,7 +16,7 @@ python3 scripts/seed_employers.py  # regenerates app/data/metro_employers.json
 python3 run.py
 ```
 
-Open http://127.0.0.1:5000
+Open https://couples-metro-match.onrender.com/ 
 
 ## Run tests
 
