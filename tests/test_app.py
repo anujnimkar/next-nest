@@ -1,6 +1,6 @@
 from app.services.commute import couple_commute_tier, tier_for_commute
 from app.services.housing import housing_costs, monthly_mortgage
-from app.services.scoring import inverse_cost_score, rank_metros
+from app.services.scoring import budget_match_score, inverse_cost_score, rank_metros
 
 
 def test_tier_for_commute_boundaries(app):
@@ -28,6 +28,11 @@ def test_inverse_cost_score():
     assert inverse_cost_score(100, 0, 100) == 0
 
 
+def test_budget_match_score_rewards_costs_within_budget():
+    assert budget_match_score(2000, [2500, 3000]) == 100
+    assert budget_match_score(4000, [2000, 4000]) == 75
+
+
 def test_rank_metros_returns_fifty(app):
     with app.app_context():
         preferences = {
@@ -36,8 +41,8 @@ def test_rank_metros_returns_fifty(app):
             "partner2_field": "healthcare",
             "partner2_commute": 30,
             "has_kids": True,
-            "partner1_weights": {"career": 3, "housing": 3, "col": 2, "commute": 2, "childcare": 2},
-            "partner2_weights": {"career": 3, "housing": 3, "col": 2, "commute": 2, "childcare": 2},
+            "partner1_preferences": {"career_importance": 5, "salary": 10000, "housing": 3000, "col": 1500, "childcare": 2000},
+            "partner2_preferences": {"career_importance": 5, "salary": 10000, "housing": 3000, "col": 1500, "childcare": 2000},
         }
         ranked = rank_metros(preferences)
         assert len(ranked) == 50
@@ -52,8 +57,8 @@ def test_expensive_metros_lower_housing_score_for_tech(app):
             "partner2_field": "software_tech",
             "partner2_commute": 20,
             "has_kids": False,
-            "partner1_weights": {"career": 1, "housing": 6, "col": 1, "commute": 1, "childcare": 1},
-            "partner2_weights": {"career": 1, "housing": 6, "col": 1, "commute": 1, "childcare": 1},
+            "partner1_preferences": {"career_importance": 1, "salary": 5000, "housing": 1500, "col": 1000, "childcare": 1000},
+            "partner2_preferences": {"career_importance": 1, "salary": 5000, "housing": 1500, "col": 1000, "childcare": 1000},
         }
         ranked = rank_metros(preferences)
         by_id = {row["metro"]["id"]: row for row in ranked}
@@ -94,16 +99,16 @@ def test_full_flow(client):
         "/?step=3",
         data={
             "has_kids": "yes",
-            "partner1_career": 3,
-            "partner1_housing": 3,
-            "partner1_col": 2,
-            "partner1_commute": 2,
-            "partner1_childcare": 2,
-            "partner2_career": 3,
-            "partner2_housing": 3,
-            "partner2_col": 2,
-            "partner2_commute": 2,
-            "partner2_childcare": 2,
+            "partner1_career_importance": 5,
+            "partner1_salary": 10000,
+            "partner1_housing": 3000,
+            "partner1_col": 1500,
+            "partner1_childcare": 2000,
+            "partner2_career_importance": 5,
+            "partner2_salary": 10000,
+            "partner2_housing": 3000,
+            "partner2_col": 1500,
+            "partner2_childcare": 2000,
         },
         follow_redirects=True,
     )
@@ -121,8 +126,8 @@ def test_ranked_metros_include_employers(app):
             "partner2_field": "data_engineering",
             "partner2_commute": 30,
             "has_kids": False,
-            "partner1_weights": {"career": 3, "housing": 3, "col": 2, "commute": 2, "childcare": 2},
-            "partner2_weights": {"career": 3, "housing": 3, "col": 2, "commute": 2, "childcare": 2},
+            "partner1_preferences": {"career_importance": 5, "salary": 10000, "housing": 3000, "col": 1500, "childcare": 2000},
+            "partner2_preferences": {"career_importance": 5, "salary": 10000, "housing": 3000, "col": 1500, "childcare": 2000},
         }
         ranked = rank_metros(preferences)
         seattle = next(row for row in ranked if row["metro"]["id"] == "seattle")

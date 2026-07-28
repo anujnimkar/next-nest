@@ -32,7 +32,7 @@
     <div class="score-bars">
       {% for key, value in row.category_scores.items() %}
       <div class="score-bar-row">
-        <span class="score-bar-label">{{ key|replace('_', ' ')|title }}</span>
+        <span class="score-bar-label">{% if key == 'career' %}Career &amp; salary{% else %}{{ key|replace('_', ' ')|title }}{% endif %}</span>
         <div class="score-bar-track"><div class="score-bar-fill" style="width: {{ value }}%"></div></div>
         <span class="score-bar-value">{{ value }}</span>
       </div>

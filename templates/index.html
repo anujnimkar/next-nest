@@ -30,7 +30,7 @@
       </form>
     {% elif step == 3 %}
       <h2>Household preferences</h2>
-      <p class="subtitle">Rate each priority from 0 (low) to 10 (high). We average both partners' scores for the final ranking.</p>
+      <p class="subtitle">Set maximum monthly budgets and salary preferences. Your commute limits from the previous steps are used directly in the ranking.</p>
       <form method="post" class="form-grid">
         {{ form.hidden_tag() }}
         <fieldset class="field">
@@ -44,38 +44,38 @@
           <div>
             <h3>Partner 1 priorities</h3>
             {% set p1_fields = [
-              (form.partner1_career, 'Career'),
-              (form.partner1_housing, 'Housing'),
-              (form.partner1_col, 'Cost of living'),
-              (form.partner1_commute, 'Commute'),
-              (form.partner1_childcare, 'Childcare')
+              (form.partner1_career_importance, 'Career importance', 10, 1, 'importance'),
+              (form.partner1_salary, 'Monthly salary preference', 100000, 1000, 'currency'),
+              (form.partner1_housing, 'Monthly housing budget', 10000, 100, 'currency'),
+              (form.partner1_col, 'Monthly cost of living budget', 10000, 100, 'currency'),
+              (form.partner1_childcare, 'Monthly childcare budget', 10000, 100, 'currency')
             ] %}
-            {% for field, label in p1_fields %}
+            {% for field, label, maximum, step, value_type in p1_fields %}
             <div class="slider-row">
               <div class="slider-label">
                 <span>{{ label }}</span>
-                <output class="slider-value">{{ field.data or 0 }}</output>
+                <output class="slider-value" data-value-type="{{ value_type }}">{% if value_type == 'currency' %}${{ "{:,}".format(field.data or 0) }}{% else %}{{ field.data or 0 }} / 10{% endif %}</output>
               </div>
-              {{ field(type="range", min="0", max="10", step="1", class="priority-slider", oninput="this.closest('.slider-row').querySelector('.slider-value').textContent = this.value") }}
+              {{ field(type="range", min="0", max=maximum, step=step, class="priority-slider", oninput="updateSliderValue(this)") }}
             </div>
             {% endfor %}
           </div>
           <div>
             <h3>Partner 2 priorities</h3>
             {% set p2_fields = [
-              (form.partner2_career, 'Career'),
-              (form.partner2_housing, 'Housing'),
-              (form.partner2_col, 'Cost of living'),
-              (form.partner2_commute, 'Commute'),
-              (form.partner2_childcare, 'Childcare')
+              (form.partner2_career_importance, 'Career importance', 10, 1, 'importance'),
+              (form.partner2_salary, 'Monthly salary preference', 100000, 1000, 'currency'),
+              (form.partner2_housing, 'Monthly housing budget', 10000, 100, 'currency'),
+              (form.partner2_col, 'Monthly cost of living budget', 10000, 100, 'currency'),
+              (form.partner2_childcare, 'Monthly childcare budget', 10000, 100, 'currency')
             ] %}
-            {% for field, label in p2_fields %}
+            {% for field, label, maximum, step, value_type in p2_fields %}
             <div class="slider-row">
               <div class="slider-label">
                 <span>{{ label }}</span>
-                <output class="slider-value">{{ field.data or 0 }}</output>
+                <output class="slider-value" data-value-type="{{ value_type }}">{% if value_type == 'currency' %}${{ "{:,}".format(field.data or 0) }}{% else %}{{ field.data or 0 }} / 10{% endif %}</output>
               </div>
-              {{ field(type="range", min="0", max="10", step="1", class="priority-slider", oninput="this.closest('.slider-row').querySelector('.slider-value').textContent = this.value") }}
+              {{ field(type="range", min="0", max=maximum, step=step, class="priority-slider", oninput="updateSliderValue(this)") }}
             </div>
             {% endfor %}
           </div>
@@ -85,4 +85,13 @@
     {% endif %}
   </div>
 </section>
+<script>
+  function updateSliderValue(slider) {
+    const output = slider.closest('.slider-row').querySelector('.slider-value');
+    const value = Number(slider.value);
+    output.textContent = output.dataset.valueType === 'currency'
+      ? `$${value.toLocaleString('en-US')}`
+      : `${value} / 10`;
+  }
+</script>
 {% endblock %}

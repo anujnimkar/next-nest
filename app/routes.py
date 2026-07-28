@@ -8,12 +8,12 @@ bp = Blueprint("main", __name__)
 SESSION_KEY = "relocation_preferences"
 
 
-def _partner_weights(prefix: str, form: PreferencesForm) -> dict[str, int]:
+def _partner_preferences(prefix: str, form: PreferencesForm) -> dict[str, int]:
     return {
-        "career": getattr(form, f"{prefix}_career").data,
+        "career_importance": getattr(form, f"{prefix}_career_importance").data,
+        "salary": getattr(form, f"{prefix}_salary").data,
         "housing": getattr(form, f"{prefix}_housing").data,
         "col": getattr(form, f"{prefix}_col").data,
-        "commute": getattr(form, f"{prefix}_commute").data,
         "childcare": getattr(form, f"{prefix}_childcare").data,
     }
 
@@ -64,8 +64,8 @@ def _preferences_step():
             "partner2_field": data["partner2"]["field"],
             "partner2_commute": data["partner2"]["commute"],
             "has_kids": form.has_kids.data == "yes",
-            "partner1_weights": _partner_weights("partner1", form),
-            "partner2_weights": _partner_weights("partner2", form),
+            "partner1_preferences": _partner_preferences("partner1", form),
+            "partner2_preferences": _partner_preferences("partner2", form),
         }
         session[SESSION_KEY]["preferences"] = preferences
         session.modified = True

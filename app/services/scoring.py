@@ -9,26 +9,75 @@ from app.services.data_loader import load_metros, get_metro_cost_map
 from app.services.employers import get_top_employers
 from app.services.housing import housing_costs
 
-DEFAULT_WEIGHTS = {
-    "career": 3,
-    "housing": 3,
-    "col": 2,
-    "commute": 2,
-    "childcare": 2,
-}
+COST_PREFERENCE_MAX = 10_000
+SALARY_PREFERENCE_MAX = 100_000
 
 
 def inverse_cost_score(value: float, min_value: float, max_value: float) -> float:
+    """Retained for compatibility with existing callers and tests."""
     if max_value == min_value:
         return 100.0
     return 100.0 * (max_value - value) / (max_value - min_value)
 
 
-def average_weights(partner1_weights: dict[str, int], partner2_weights: dict[str, int]) -> dict[str, float]:
-    keys = DEFAULT_WEIGHTS.keys()
-    averaged = {key: (partner1_weights.get(key, DEFAULT_WEIGHTS[key]) + partner2_weights.get(key, DEFAULT_WEIGHTS[key])) / 2 for key in keys}
-    total = sum(averaged.values()) or 1
-    return {key: value / total for key, value in averaged.items()}
+def budget_match_score(monthly_cost: float, budgets: list[int]) -> float:
+    """Score each partner's maximum monthly budget, then average the results."""
+    scores = []
+    for budget in budgets:
+        if budget <= 0:
+            scores.append(100.0 if monthly_cost == 0 else 0.0)
+        elif monthly_cost <= budget:
+            scores.append(100.0)
+        else:
+            scores.append(max(0.0, 100.0 * budget / monthly_cost))
+    return sum(scores) / len(scores)
+
+
+def salary_match_score(employers: list[dict], field_id: str, monthly_target: int) -> float:
+    """Return how well a metro's listed roles meet one partner's salary target."""
+    if monthly_target <= 0:
+        return 100.0
+
+    matching_roles = [
+        role
+        for employer in employers
+        for role in employer["roles"]
+        if role["field"] == field_id
+    ]
+    if not matching_roles:
+        return 0.0
+
+    best_monthly_pay = max(role["pay_max"] / 12 for role in matching_roles)
+    return min(100.0, 100.0 * best_monthly_pay / monthly_target)
+
+
+def normalized_dollar_weight(amount: float, maximum: float) -> float:
+    """Use a stated dollar value as a bounded category weight."""
+    return 0.25 + min(max(amount, 0) / maximum, 1.0)
+
+
+def build_weights(preferences: dict, has_kids: bool) -> dict[str, float]:
+    partner1 = preferences["partner1_preferences"]
+    partner2 = preferences["partner2_preferences"]
+    averages = {
+        key: (partner1[key] + partner2[key]) / 2
+        for key in ("career_importance", "housing", "col", "childcare")
+    }
+
+    weights = {
+        "career": 0.25 + averages["career_importance"] / 10,
+        "housing": normalized_dollar_weight(averages["housing"], COST_PREFERENCE_MAX),
+        "col": normalized_dollar_weight(averages["col"], COST_PREFERENCE_MAX),
+        "commute": 1.0,
+    }
+    if has_kids:
+        weights["childcare"] = normalized_dollar_weight(
+            averages["childcare"],
+            COST_PREFERENCE_MAX,
+        )
+
+    total = sum(weights.values())
+    return {key: value / total for key, value in weights.items()}
 
 
 def rank_metros(preferences: dict) -> list[dict]:
@@ -63,36 +112,54 @@ def rank_metros(preferences: dict) -> list[dict]:
             }
         )
 
-    housing_values = [item["housing"]["burden"] for item in raw_results]
-    col_values = [item["col"]["total"] for item in raw_results]
-    childcare_values = [item["childcare"]["total"] for item in raw_results]
-
-    housing_min, housing_max = min(housing_values), max(housing_values)
-    col_min, col_max = min(col_values), max(col_values)
-    childcare_min, childcare_max = min(childcare_values), max(childcare_values)
-
-    weights = average_weights(preferences["partner1_weights"], preferences["partner2_weights"])
-    if not has_kids:
-        childcare_weight = weights.pop("childcare", 0)
-        if childcare_weight:
-            redistribute = childcare_weight / len(weights)
-            weights = {key: value + redistribute for key, value in weights.items()}
+    partner1_preferences = preferences["partner1_preferences"]
+    partner2_preferences = preferences["partner2_preferences"]
+    weights = build_weights(preferences, has_kids)
 
     ranked = []
     for item in raw_results:
-        category_scores = {
-            "career": round(item["career_raw"], 1),
-            "housing": round(inverse_cost_score(item["housing"]["burden"], housing_min, housing_max), 1),
-            "col": round(inverse_cost_score(item["col"]["total"], col_min, col_max), 1),
-            "commute": round(item["commute_raw"]["score"], 1),
-            "childcare": round(inverse_cost_score(item["childcare"]["total"], childcare_min, childcare_max), 1),
-        }
-        overall = round(sum(category_scores[key] * weights[key] for key in weights), 1)
         employers = get_top_employers(
             item["metro"]["id"],
             preferences["partner1_field"],
             preferences["partner2_field"],
         )
+        partner1_salary_score = salary_match_score(
+            employers,
+            preferences["partner1_field"],
+            partner1_preferences["salary"],
+        )
+        partner2_salary_score = salary_match_score(
+            employers,
+            preferences["partner2_field"],
+            partner2_preferences["salary"],
+        )
+        salary_score = (partner1_salary_score + partner2_salary_score) / 2
+        category_scores = {
+            "career": round(0.6 * item["career_raw"] + 0.4 * salary_score, 1),
+            "housing": round(
+                budget_match_score(
+                    item["housing"]["burden"],
+                    [partner1_preferences["housing"], partner2_preferences["housing"]],
+                ),
+                1,
+            ),
+            "col": round(
+                budget_match_score(
+                    item["col"]["total"],
+                    [partner1_preferences["col"], partner2_preferences["col"]],
+                ),
+                1,
+            ),
+            "commute": round(item["commute_raw"]["score"], 1),
+            "childcare": round(
+                budget_match_score(
+                    item["childcare"]["total"],
+                    [partner1_preferences["childcare"], partner2_preferences["childcare"]],
+                ),
+                1,
+            ),
+        }
+        overall = round(sum(category_scores[key] * weights[key] for key in weights), 1)
         ranked.append(
             {
                 "metro": item["metro"],
