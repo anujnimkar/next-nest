@@ -1,6 +1,6 @@
 from app.services.commute import couple_commute_tier, tier_for_commute
 from app.services.housing import housing_costs, monthly_mortgage
-from app.services.scoring import budget_match_score, inverse_cost_score, rank_metros
+from app.services.scoring import build_weights, budget_match_score, inverse_cost_score, rank_metros
 
 
 def test_tier_for_commute_boundaries(app):
@@ -28,9 +28,9 @@ def test_inverse_cost_score():
     assert inverse_cost_score(100, 0, 100) == 0
 
 
-def test_budget_match_score_rewards_costs_within_budget():
-    assert budget_match_score(2000, [2500, 3000]) == 100
-    assert budget_match_score(4000, [2000, 4000]) == 75
+def test_budget_match_score_uses_combined_household_budget():
+    assert budget_match_score(4000, [2000, 4000]) == 100
+    assert budget_match_score(8000, [2000, 4000]) == 75
 
 
 def test_rank_metros_returns_fifty(app):

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
-from app.services.career import combined_career_score
+import math
+
+from app.services.career import career_score_for_partner
 from app.services.childcare import childcare_costs
 from app.services.col import col_costs
 from app.services.commute import couple_commute_tier
@@ -8,10 +10,6 @@ from app.services.commute_scoring import commute_feasibility
 from app.services.data_loader import load_metros, get_metro_cost_map
 from app.services.employers import get_top_employers
 from app.services.housing import housing_costs
-
-COST_PREFERENCE_MAX = 10_000
-SALARY_PREFERENCE_MAX = 100_000
-
 
 def inverse_cost_score(value: float, min_value: float, max_value: float) -> float:
     """Retained for compatibility with existing callers and tests."""
@@ -21,23 +19,16 @@ def inverse_cost_score(value: float, min_value: float, max_value: float) -> floa
 
 
 def budget_match_score(monthly_cost: float, budgets: list[int]) -> float:
-    """Score each partner's maximum monthly budget, then average the results."""
-    scores = []
-    for budget in budgets:
-        if budget <= 0:
-            scores.append(100.0 if monthly_cost == 0 else 0.0)
-        elif monthly_cost <= budget:
-            scores.append(100.0)
-        else:
-            scores.append(max(0.0, 100.0 * budget / monthly_cost))
-    return sum(scores) / len(scores)
-
-
-def salary_match_score(employers: list[dict], field_id: str, monthly_target: int) -> float:
-    """Return how well a metro's listed roles meet one partner's salary target."""
-    if monthly_target <= 0:
+    """Score a shared expense against the couple's combined soft budget."""
+    household_budget = sum(budgets)
+    if household_budget <= 0:
+        return 100.0 if monthly_cost == 0 else 0.0
+    if monthly_cost <= household_budget:
         return 100.0
+    return max(0.0, 100.0 * household_budget / monthly_cost)
 
+
+def best_monthly_pay(employers: list[dict], field_id: str) -> float:
     matching_roles = [
         role
         for employer in employers
@@ -46,37 +37,38 @@ def salary_match_score(employers: list[dict], field_id: str, monthly_target: int
     ]
     if not matching_roles:
         return 0.0
-
-    best_monthly_pay = max(role["pay_max"] / 12 for role in matching_roles)
-    return min(100.0, 100.0 * best_monthly_pay / monthly_target)
+    return max(role["pay_max"] / 12 for role in matching_roles)
 
 
-def normalized_dollar_weight(amount: float, maximum: float) -> float:
-    """Use a stated dollar value as a bounded category weight."""
-    return 0.25 + min(max(amount, 0) / maximum, 1.0)
+def salary_match_score(monthly_pay: float, monthly_target: int) -> float:
+    """Return how well a monthly salary estimate meets one partner's target."""
+    if monthly_target <= 0:
+        return 100.0
+    return min(100.0, 100.0 * monthly_pay / monthly_target)
+
+
+def geometric_mean(left: float, right: float) -> float:
+    """Prevent one partner's strong outcome from hiding the other's weak one."""
+    return math.sqrt(max(left, 0.0) * max(right, 0.0))
 
 
 def build_weights(preferences: dict, has_kids: bool) -> dict[str, float]:
     partner1 = preferences["partner1_preferences"]
     partner2 = preferences["partner2_preferences"]
-    averages = {
-        key: (partner1[key] + partner2[key]) / 2
-        for key in ("career_importance", "housing", "col", "childcare")
-    }
-
     weights = {
-        "career": 0.25 + averages["career_importance"] / 10,
-        "housing": normalized_dollar_weight(averages["housing"], COST_PREFERENCE_MAX),
-        "col": normalized_dollar_weight(averages["col"], COST_PREFERENCE_MAX),
+        # At 5, career has equal weight to each fixed category. At 0 it is
+        # omitted; at 10 it receives double the fixed category weight.
+        "career": (partner1["career_importance"] + partner2["career_importance"]) / 10,
+        "housing": 1.0,
+        "col": 1.0,
         "commute": 1.0,
     }
     if has_kids:
-        weights["childcare"] = normalized_dollar_weight(
-            averages["childcare"],
-            COST_PREFERENCE_MAX,
-        )
+        weights["childcare"] = 1.0
 
     total = sum(weights.values())
+    if total == 0:
+        return {key: 1 / len(weights) for key in weights}
     return {key: value / total for key, value in weights.items()}
 
 
@@ -92,7 +84,14 @@ def rank_metros(preferences: dict) -> list[dict]:
         housing = housing_costs(metro_cost, tier)
         col = col_costs(metro_cost, tier)
         childcare = childcare_costs(metro_cost)
-        career = combined_career_score(metro_cost, preferences["partner1_field"], preferences["partner2_field"])
+        partner1_career = career_score_for_partner(
+            metro_cost,
+            preferences["partner1_field"],
+        )
+        partner2_career = career_score_for_partner(
+            metro_cost,
+            preferences["partner2_field"],
+        )
         commute = commute_feasibility(
             metro_cost,
             preferences["partner1_field"],
@@ -107,7 +106,7 @@ def rank_metros(preferences: dict) -> list[dict]:
                 "housing": housing,
                 "col": col,
                 "childcare": childcare,
-                "career_raw": career,
+                "career_raw": geometric_mean(partner1_career, partner2_career),
                 "commute_raw": commute,
             }
         )
@@ -123,17 +122,31 @@ def rank_metros(preferences: dict) -> list[dict]:
             preferences["partner1_field"],
             preferences["partner2_field"],
         )
-        partner1_salary_score = salary_match_score(
+        partner1_monthly_pay = best_monthly_pay(
             employers,
             preferences["partner1_field"],
+        )
+        partner2_monthly_pay = best_monthly_pay(
+            employers,
+            preferences["partner2_field"],
+        )
+        partner1_salary_score = salary_match_score(
+            partner1_monthly_pay,
             partner1_preferences["salary"],
         )
         partner2_salary_score = salary_match_score(
-            employers,
-            preferences["partner2_field"],
+            partner2_monthly_pay,
             partner2_preferences["salary"],
         )
-        salary_score = (partner1_salary_score + partner2_salary_score) / 2
+        individual_salary_score = geometric_mean(
+            partner1_salary_score,
+            partner2_salary_score,
+        )
+        household_salary_score = salary_match_score(
+            partner1_monthly_pay + partner2_monthly_pay,
+            partner1_preferences["salary"] + partner2_preferences["salary"],
+        )
+        salary_score = 0.7 * individual_salary_score + 0.3 * household_salary_score
         category_scores = {
             "career": round(0.6 * item["career_raw"] + 0.4 * salary_score, 1),
             "housing": round(

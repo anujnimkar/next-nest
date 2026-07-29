@@ -14,15 +14,16 @@ def commute_feasibility(
     partner2_ok = minutes2 <= partner2_max
     both_ok = partner1_ok and partner2_ok
 
-    if both_ok:
-        score = 100.0
-    elif partner1_ok or partner2_ok:
-        score = 55.0
-    else:
-        over1 = max(0, minutes1 - partner1_max)
-        over2 = max(0, minutes2 - partner2_max)
-        penalty = min(50, (over1 + over2) * 2)
-        score = max(0.0, 45.0 - penalty)
+    def individual_score(estimated_minutes: int, maximum_minutes: int) -> float:
+        if estimated_minutes <= maximum_minutes:
+            return 100.0
+        return max(0.0, 100.0 * maximum_minutes / estimated_minutes)
+
+    # The lower partner score determines feasibility for a shared location.
+    score = min(
+        individual_score(minutes1, partner1_max),
+        individual_score(minutes2, partner2_max),
+    )
 
     return {
         "score": score,

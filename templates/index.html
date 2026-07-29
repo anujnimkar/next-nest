@@ -30,7 +30,7 @@
       </form>
     {% elif step == 3 %}
       <h2>Household preferences</h2>
-      <p class="subtitle">Set maximum monthly budgets and salary preferences. Your commute limits from the previous steps are used directly in the ranking.</p>
+      <p class="subtitle">Set soft monthly budget constraints and category importance. Locations over a budget remain in the results with a lower score.</p>
       <form method="post" class="form-grid">
         {{ form.hidden_tag() }}
         <fieldset class="field">
