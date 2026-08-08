@@ -88,12 +88,18 @@ def test_full_flow(client):
     )
     assert response.status_code == 302
 
+    response = client.get("/?step=2")
+    assert b">Back<" in response.data
+
     response = client.post(
         "/?step=2",
         data={"career_field": "healthcare", "max_commute": 30},
         follow_redirects=False,
     )
     assert response.status_code == 302
+
+    response = client.get("/?step=3")
+    assert b"Includes groceries, gas, parking, electricity, and water." in response.data
 
     response = client.post(
         "/?step=3",
@@ -116,6 +122,8 @@ def test_full_flow(client):
     assert b"Ranked metro areas" in response.data
     assert response.data.count(b'class="result-card"') == 50
     assert b"Top employers in this area" in response.data
+    assert b"Back to preferences" in response.data
+    assert b"Includes groceries, gas, parking, electricity, and water." in response.data
 
 
 def test_ranked_metros_include_employers(app):

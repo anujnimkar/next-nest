@@ -38,6 +38,14 @@ def index():
 def _partner_step(partner_key: str, current_step: int, next_step: int):
     form = PartnerForm()
     init_partner_form(form)
+    saved_partner = session.get(SESSION_KEY, {}).get(partner_key)
+    if request.method == "GET" and saved_partner:
+        form.process(
+            data={
+                "career_field": saved_partner["field"],
+                "max_commute": saved_partner["commute"],
+            }
+        )
     if form.validate_on_submit():
         session.setdefault(SESSION_KEY, {})
         session[SESSION_KEY][partner_key] = {
@@ -56,6 +64,17 @@ def _partner_step(partner_key: str, current_step: int, next_step: int):
 
 def _preferences_step():
     form = PreferencesForm()
+    saved_preferences = session.get(SESSION_KEY, {}).get("preferences")
+    if request.method == "GET" and saved_preferences:
+        partner1 = saved_preferences["partner1_preferences"]
+        partner2 = saved_preferences["partner2_preferences"]
+        form.process(
+            data={
+                "has_kids": "yes" if saved_preferences["has_kids"] else "no",
+                **{f"partner1_{key}": value for key, value in partner1.items()},
+                **{f"partner2_{key}": value for key, value in partner2.items()},
+            }
+        )
     if form.validate_on_submit():
         data = session.get(SESSION_KEY, {})
         preferences = {

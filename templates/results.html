@@ -11,7 +11,10 @@
       {% if has_kids %}Childcare costs are included in scoring.{% else %}Childcare is shown for reference but not weighted.{% endif %}
     </p>
   </div>
-  <a href="{{ url_for('main.reset') }}" class="btn btn-secondary">Start over</a>
+  <div class="navigation-actions">
+    <a href="{{ url_for('main.index', step=3) }}" class="btn btn-secondary">Back to preferences</a>
+    <a href="{{ url_for('main.reset') }}" class="btn btn-secondary">Start over</a>
+  </div>
 </section>
 
 <div class="results-list">
@@ -50,6 +53,7 @@
       </div>
       <div class="cost-card">
         <h4>Cost of living (monthly)</h4>
+        <p class="cost-coverage">Includes groceries, gas, parking, electricity, and water.</p>
         <ul>
           {% for key, value in row.col.breakdown.items() %}
           <li>{{ key|replace('_', ' ')|title }}: ${{ "{:,}".format(value) }}</li>

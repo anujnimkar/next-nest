@@ -26,7 +26,12 @@
           {{ form.max_commute(class="input", type="range", min="10", max="90", oninput="this.nextElementSibling.value = this.value + ' min'") }}
           <output>{{ form.max_commute.data or 35 }} min</output>
         </div>
-        <div class="actions">{{ form.submit(class="btn btn-primary") }}</div>
+        <div class="actions navigation-actions">
+          {% if step == 2 %}
+          <a href="{{ url_for('main.index', step=1) }}" class="btn btn-secondary">Back</a>
+          {% endif %}
+          {{ form.submit(class="btn btn-primary", value="Next") }}
+        </div>
       </form>
     {% elif step == 3 %}
       <h2>Household preferences</h2>
@@ -57,6 +62,9 @@
                 <output class="slider-value" data-value-type="{{ value_type }}">{% if value_type == 'currency' %}${{ "{:,}".format(field.data or 0) }}{% else %}{{ field.data or 0 }} / 10{% endif %}</output>
               </div>
               {{ field(type="range", min="0", max=maximum, step=step, class="priority-slider", oninput="updateSliderValue(this)") }}
+              {% if label == 'Monthly cost of living budget' %}
+              <p class="field-hint">Includes groceries, gas, parking, electricity, and water.</p>
+              {% endif %}
             </div>
             {% endfor %}
           </div>
@@ -76,11 +84,17 @@
                 <output class="slider-value" data-value-type="{{ value_type }}">{% if value_type == 'currency' %}${{ "{:,}".format(field.data or 0) }}{% else %}{{ field.data or 0 }} / 10{% endif %}</output>
               </div>
               {{ field(type="range", min="0", max=maximum, step=step, class="priority-slider", oninput="updateSliderValue(this)") }}
+              {% if label == 'Monthly cost of living budget' %}
+              <p class="field-hint">Includes groceries, gas, parking, electricity, and water.</p>
+              {% endif %}
             </div>
             {% endfor %}
           </div>
         </div>
-        <div class="actions">{{ form.submit(class="btn btn-primary") }}</div>
+        <div class="actions navigation-actions">
+          <a href="{{ url_for('main.index', step=2) }}" class="btn btn-secondary">Back</a>
+          {{ form.submit(class="btn btn-primary", value="See results") }}
+        </div>
       </form>
     {% endif %}
   </div>
